@@ -1,0 +1,93 @@
+﻿
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+*{
+    font-family: 'Noto Sans';
+}
+
+.container1{
+    height:100vh;
+    margin-bottom:50px;
+}
+
+.container2 {
+    height:50vh;
+}
+
+.header{
+    width:800px;
+    margin:0px auto;
+    text-align:center;
+    //margin-bottom:15px;
+}
+
+.title{
+    width:300px;
+    margin:20px auto;
+    text-align:center;
+}
+
+.cards {
+    width: 1000px;
+    margin: 20px auto;
+    border: 0px solid black;
+    height: 500px;
+    padding: 0px 50px;
+    display: flex;
+}
+
+#card{
+    width:300px;
+    border:1px solid black;
+    height:480px;
+    margin-right:10px;
+}
+
+.animate__animated.animate__fadeInUp{
+    --animate-duration: 2s;
+    --animate-delay: 15s;
+}
+
+.animate__animated.animate__fadeInLeft {
+    --animate-duration: 2s;
+    --animate-delay: 1.9s;
+}
+
+.animate__animated.animate__fadeInRight {
+    --animate-duration: 2s;
+    --animate-delay: 1.9s;
+}
+
+.animate__animated.animate__zoomIn {
+    --animate-duration: 5s;
+    --animate-delay: 15s;
+}
+
+.animate__animated.animate__rollIn {
+    --animate-duration: 7s;
+    --animate-delay: 15s;
+}
+
+@media only screen and (max-width: 480px) {
+
+    .container1 {
+        width: 480px;
+    }
+
+    .cards {
+        width: 480px;
+        margin: 5px 0px;
+    }
+
+    .card {
+        margin: 0px 0px;
+        width: 165px;
+    }
+
+    .header {
+        width: 480px;
+    }
+
+    
+}
+
